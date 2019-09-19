@@ -12,6 +12,7 @@ Notes:
 - First boards came in, seem to work well.
 - A thinner PCB will make it easier to solder.
 - Don't forget to cut the VIN to VUSB trace before attaching board.
+- You should be able to use one of [these](https://www.pjrc.com/store/cable_usb_host_t36.html) cables connected to pins 1-5 on the right side for a basic USB host connection (albeit without power management and protection)
 
 Left Side Pinout:
 
@@ -35,8 +36,8 @@ Right Side Pinout:
 1. VUSB
 2. USB Host D-
 3. USB Host D+
-4. NC
-5. NC
+4. GND
+5. GND
 6. 27
 7. 25
 8. 26
