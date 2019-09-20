@@ -1,5 +1,7 @@
 A breakout board for the PJRC.com Teensy 4.0 board that is soldered directly to the bottom of the Teensy board via castellated solder points and two parallel 2x14 0.1" headers for connection.
 
+There's a companion [SD breakout board](https://github.com/blackketter/teensy4_sd_breakout) that can attach to this board.
+
 Designed in KiCad.
 
 ![breakout render](teensy4_header_breakout_render.png)
