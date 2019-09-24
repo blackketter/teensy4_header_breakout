@@ -17,13 +17,13 @@ $EndDescr
 $Comp
 L Teensy:Teensy4.0 U1
 U 1 1 5D7811A6
-P 5600 4700
-F 0 "U1" H 5600 3085 50  0000 C CNN
-F 1 "GND-1" H 5600 3176 50  0000 C CNN
-F 2 "Teensy:Teensy40_SMT" H 5200 4900 50  0001 C CNN
-F 3 "" H 5200 4900 50  0001 C CNN
-	1    5600 4700
-	1    0    0    1   
+P 5150 4750
+F 0 "U1" H 5150 3135 50  0000 C CNN
+F 1 "GND-1" H 5150 3226 50  0000 C CNN
+F 2 "Teensy:Teensy40_SMT" H 4750 4950 50  0001 C CNN
+F 3 "" H 4750 4950 50  0001 C CNN
+	1    5150 4750
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x14 J2
@@ -36,70 +36,70 @@ F 3 "~" H 9450 4400 50  0001 C CNN
 	1    9450 4400
 	-1   0    0    1   
 $EndComp
-NoConn ~ 4500 6050
-NoConn ~ 4500 5950
-NoConn ~ 4500 5850
-NoConn ~ 4500 5750
-NoConn ~ 4500 5550
-NoConn ~ 4500 5650
-NoConn ~ 4500 5450
-NoConn ~ 4500 5350
-NoConn ~ 4500 5250
-NoConn ~ 4500 5150
-NoConn ~ 4500 5050
-NoConn ~ 4500 4950
-NoConn ~ 4500 4850
-NoConn ~ 4500 4750
-NoConn ~ 4500 4150
-NoConn ~ 4500 4050
-NoConn ~ 4500 3950
-NoConn ~ 4500 3850
-NoConn ~ 4500 3750
-NoConn ~ 4500 3650
-NoConn ~ 4500 3550
-NoConn ~ 4500 3450
-NoConn ~ 4500 3350
-NoConn ~ 6700 3750
-NoConn ~ 6700 3550
-NoConn ~ 6700 3450
-NoConn ~ 6700 3350
-Text Label 4500 4650 2    50   ~ 0
+NoConn ~ 4050 3400
+NoConn ~ 4050 3500
+NoConn ~ 4050 3600
+NoConn ~ 4050 3700
+NoConn ~ 4050 3900
+NoConn ~ 4050 3800
+NoConn ~ 4050 4000
+NoConn ~ 4050 4100
+NoConn ~ 4050 4200
+NoConn ~ 4050 4300
+NoConn ~ 4050 4400
+NoConn ~ 4050 4500
+NoConn ~ 4050 4600
+NoConn ~ 4050 4700
+NoConn ~ 4050 5300
+NoConn ~ 4050 5400
+NoConn ~ 4050 5500
+NoConn ~ 4050 5600
+NoConn ~ 4050 5700
+NoConn ~ 4050 5800
+NoConn ~ 4050 5900
+NoConn ~ 4050 6000
+NoConn ~ 4050 6100
+NoConn ~ 6250 5700
+NoConn ~ 6250 5900
+NoConn ~ 6250 6000
+NoConn ~ 6250 6100
+Text Label 4050 4800 2    50   ~ 0
 VBAT
-Text Label 4500 4550 2    50   ~ 0
+Text Label 4050 4900 2    50   ~ 0
 3V3-1
-Text Label 4500 4450 2    50   ~ 0
+Text Label 4050 5000 2    50   ~ 0
 GND-1
-Text Label 4500 4350 2    50   ~ 0
+Text Label 4050 5100 2    50   ~ 0
 PROGRAM
-Text Label 4500 4250 2    50   ~ 0
+Text Label 4050 5200 2    50   ~ 0
 ON_OFF
-Text Label 6700 6050 0    50   ~ 0
+Text Label 6250 3400 0    50   ~ 0
 D+
-Text Label 6700 5950 0    50   ~ 0
+Text Label 6250 3500 0    50   ~ 0
 D-
 Text Label 9650 3700 0    50   ~ 0
 VUSB
-Text Label 6700 3850 0    50   ~ 0
+Text Label 6250 5600 0    50   ~ 0
 VUSB
 Text Label 9650 3800 0    50   ~ 0
 D-
 Text Label 9650 3900 0    50   ~ 0
 D+
-Text Label 6700 5850 0    50   ~ 0
+Text Label 6250 3600 0    50   ~ 0
 DAT2
-Text Label 6700 5750 0    50   ~ 0
+Text Label 6250 3700 0    50   ~ 0
 DAT3
-Text Label 6700 5650 0    50   ~ 0
+Text Label 6250 3800 0    50   ~ 0
 CMD
-Text Label 6700 5550 0    50   ~ 0
+Text Label 6250 3900 0    50   ~ 0
 3V3-SD
-Text Label 6700 5450 0    50   ~ 0
+Text Label 6250 4000 0    50   ~ 0
 CLK
-Text Label 6700 5350 0    50   ~ 0
+Text Label 6250 4100 0    50   ~ 0
 GND-SD
-Text Label 6700 5250 0    50   ~ 0
+Text Label 6250 4200 0    50   ~ 0
 DAT0
-Text Label 6700 5150 0    50   ~ 0
+Text Label 6250 4300 0    50   ~ 0
 DAT1
 Text Label 8650 4400 2    50   ~ 0
 DAT2
@@ -158,25 +158,25 @@ Text Label 9650 4200 0    50   ~ 0
 27
 Text Label 9650 4300 0    50   ~ 0
 25
-Text Label 6700 5050 0    50   ~ 0
+Text Label 6250 4400 0    50   ~ 0
 33
-Text Label 6700 4950 0    50   ~ 0
+Text Label 6250 4500 0    50   ~ 0
 32
-Text Label 6700 4850 0    50   ~ 0
+Text Label 6250 4600 0    50   ~ 0
 31
-Text Label 6700 4750 0    50   ~ 0
+Text Label 6250 4700 0    50   ~ 0
 30
-Text Label 6700 4650 0    50   ~ 0
+Text Label 6250 4800 0    50   ~ 0
 29
-Text Label 6700 4550 0    50   ~ 0
+Text Label 6250 4900 0    50   ~ 0
 28
-Text Label 6700 4450 0    50   ~ 0
+Text Label 6250 5000 0    50   ~ 0
 27
-Text Label 6700 4350 0    50   ~ 0
+Text Label 6250 5100 0    50   ~ 0
 26
-Text Label 6700 4250 0    50   ~ 0
+Text Label 6250 5200 0    50   ~ 0
 25
-Text Label 6700 4150 0    50   ~ 0
+Text Label 6250 5300 0    50   ~ 0
 24
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -221,6 +221,6 @@ Text Label 9650 4000 0    50   ~ 0
 GND
 Text Label 9650 4100 0    50   ~ 0
 GND
-Text Label 6700 3650 0    50   ~ 0
+Text Label 6250 5800 0    50   ~ 0
 GND
 $EndSCHEMATC
