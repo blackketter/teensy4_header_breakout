@@ -1,11 +1,14 @@
 A breakout board for the PJRC.com Teensy 4.0 board that is soldered directly to the bottom of the Teensy board via castellated solder points and two parallel 2x14 0.1" headers for connection.
 
-There's a companion [SD breakout board](https://github.com/blackketter/teensy4_sd_breakout) that can attach to this board.
+There are companion boards that can attach to the outside pins and provide:
+
+- [Micro SD Slot](https://github.com/blackketter/teensy4_sd_breakout)
+- [USB Host](https://github.com/blackketter/teensy4_usb_host_breakout)
+- [ESP32 WiFi & Bluetooth](https://github.com/blackketter/teensy4_esp32_breakout)
 
 Designed in KiCad.
 
 ![breakout render](teensy4_header_breakout_render.png)
-
 ![breakout photo](teensy4_header_breakout_photo.jpg)
 ![breakout photo](teensy4_header_breakout_photo2.jpg)
 
