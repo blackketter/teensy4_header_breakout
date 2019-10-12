@@ -8,14 +8,18 @@ There are companion boards that can attach to the outside pins and provide:
 
 Designed in KiCad.
 
-![breakout render](teensy4_header_breakout_render.png)
+Current design:
+![breakout render](render.png)
+![breakout render bottom](render_bottom.png)
+
+Previous prototype:
 ![breakout photo](teensy4_header_breakout_photo.jpg)
 ![breakout photo](teensy4_header_breakout_photo2.jpg)
 
 Notes:
 
 - First boards came in, seem to work well.
-- A thinner PCB will make it easier to solder.
+- A thinner PCB will make it easier to solder. (Caution: OSHPark 0.8mm thick boards are not being made reliably.  Better to use 1.6mm process.)
 - If you need to cut the trace between VIN and VUSB, do it before attaching board.
 - You should be able to use one of [these](https://www.pjrc.com/store/cable_usb_host_t36.html) cables connected to pins 1-5 on the right side for a basic USB host connection (albeit without power management and protection)
 - The Teensy's VUSB pin needs to be soldered on both sides with a bit of wire in the middle.
