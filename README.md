@@ -22,7 +22,7 @@ Notes:
 
 - If you need to cut the trace between VIN and VUSB, do it before attaching board.
 - You should be able to use one of [these](https://www.pjrc.com/store/cable_usb_host_t36.html) cables connected to pins 1-5 on the right side for a basic USB host connection (albeit without power management and protection). For a better protected solution see [this USB sidecar](https://github.com/blackketter/teensy4_usb_host_breakout)
-- Make sure to solder all the pins marked with cirles.  You may need a bit of wire to make the connection on the Teensy VUSB pin.
+- Make sure to solder all the pins marked with circles.  You may need a bit of wire to make the connection on the Teensy VUSB pin.
 - When soldering the Teensy pins, make sure you give them plenty of solder, heat and time for the solder to flow to the other side.  And make sure you test the connections with a continuity tester for opens ans shorts
 - A thinner PCB will make it easier to solder. (Caution: OSHPark 0.8mm thick boards are not being made reliably.  Better to use 1.6mm process.)
 
