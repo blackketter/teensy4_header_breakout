@@ -2,28 +2,29 @@ A breakout board for the PJRC.com Teensy 4.0 board that is soldered directly to 
 
 There are companion boards that can attach to the outside pins and provide:
 
-- [Micro SD Slot](https://github.com/blackketter/teensy4_sd_breakout)
-- [USB Host](https://github.com/blackketter/teensy4_usb_host_breakout)
-- [ESP32 WiFi & Bluetooth](https://github.com/blackketter/teensy4_esp32_breakout)
+- [Micro SD Slot Sidecar](https://github.com/blackketter/teensy4_sd_breakout)
+- [USB Host Sidecar](https://github.com/blackketter/teensy4_usb_host_breakout)
+- [ESP32 WiFi & Bluetooth Sidecar](https://github.com/blackketter/teensy4_esp32_breakout)
 
 Designed in KiCad.
 
 Current design:
+
 ![breakout render](render.png)
 ![breakout render bottom](render_bottom.png)
 
 Previous prototype:
+
 ![breakout photo](teensy4_header_breakout_photo.jpg)
 ![breakout photo](teensy4_header_breakout_photo2.jpg)
 
 Notes:
 
-- First boards came in, seem to work well.
-- A thinner PCB will make it easier to solder. (Caution: OSHPark 0.8mm thick boards are not being made reliably.  Better to use 1.6mm process.)
 - If you need to cut the trace between VIN and VUSB, do it before attaching board.
-- You should be able to use one of [these](https://www.pjrc.com/store/cable_usb_host_t36.html) cables connected to pins 1-5 on the right side for a basic USB host connection (albeit without power management and protection)
-- The Teensy's VUSB pin needs to be soldered on both sides with a bit of wire in the middle.
-- When soldering the Teensy pins, make sure you give them plenty of solder, heat and time for the solder to flow to the other side.  And make sure you test the connections with a continuity tester.
+- You should be able to use one of [these](https://www.pjrc.com/store/cable_usb_host_t36.html) cables connected to pins 1-5 on the right side for a basic USB host connection (albeit without power management and protection). For a better protected solution see [this USB sidecar](https://github.com/blackketter/teensy4_usb_host_breakout)
+- Make sure to solder all the pins marked with cirles.  You may need a bit of wire to make the connection on the Teensy VUSB pin.
+- When soldering the Teensy pins, make sure you give them plenty of solder, heat and time for the solder to flow to the other side.  And make sure you test the connections with a continuity tester for opens ans shorts
+- A thinner PCB will make it easier to solder. (Caution: OSHPark 0.8mm thick boards are not being made reliably.  Better to use 1.6mm process.)
 
 Left Side Pinout:
 
