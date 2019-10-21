@@ -8,10 +8,11 @@ There are companion boards that can attach to the outside pins and provide:
 
 Designed in KiCad.
 
-Current design:
+Current design, avaiable at [OSHPark](https://oshpark.com/shared_projects/JoIFFIWW):
 
 ![breakout render](render.png)
 ![breakout render bottom](render_bottom.png)
+
 
 Previous prototype:
 
