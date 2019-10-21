@@ -223,4 +223,21 @@ Text Label 9650 4100 0    50   ~ 0
 GND
 Text Label 6250 5800 0    50   ~ 0
 GND
+Wire Wire Line
+	8550 6050 8200 6050
+Text Label 7950 6050 0    50   ~ 0
+GND
+Text Label 8550 6050 2    50   ~ 0
+GND-SD
+Text Notes 7950 5950 0    50   ~ 0
+Tie Grounds Together
+Wire Wire Line
+	8550 6150 8200 6150
+Wire Wire Line
+	8200 6150 8200 6050
+Connection ~ 8200 6050
+Wire Wire Line
+	8200 6050 7950 6050
+Text Label 8550 6150 2    50   ~ 0
+GND-1
 $EndSCHEMATC
