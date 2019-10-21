@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Teensy:Teensy4.0 U1
-U 1 1 5D7811A6
-P 5150 4750
-F 0 "U1" H 5150 3135 50  0000 C CNN
-F 1 "GND-1" H 5150 3226 50  0000 C CNN
-F 2 "Teensy:Teensy40_SMT" H 4750 4950 50  0001 C CNN
-F 3 "" H 4750 4950 50  0001 C CNN
-	1    5150 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x14 J2
 U 1 1 5D785C4E
 P 9450 4400
@@ -36,7 +25,6 @@ F 3 "~" H 9450 4400 50  0001 C CNN
 	1    9450 4400
 	-1   0    0    1   
 $EndComp
-NoConn ~ 4050 3400
 NoConn ~ 4050 3500
 NoConn ~ 4050 3600
 NoConn ~ 4050 3700
@@ -240,4 +228,17 @@ Wire Wire Line
 	8200 6050 7950 6050
 Text Label 8550 6150 2    50   ~ 0
 GND-1
+$Comp
+L Teensy:Teensy4.0 U1
+U 1 1 5D7811A6
+P 5150 4750
+F 0 "U1" H 5150 3135 50  0000 C CNN
+F 1 "GND-1" H 5150 3226 50  0000 C CNN
+F 2 "Teensy:Teensy40_SMT" H 4750 4950 50  0001 C CNN
+F 3 "" H 4750 4950 50  0001 C CNN
+	1    5150 4750
+	1    0    0    -1  
+$EndComp
+Text Label 4050 3400 2    50   ~ 0
+GND
 $EndSCHEMATC
