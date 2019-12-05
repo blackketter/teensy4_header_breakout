@@ -26,6 +26,7 @@ Notes:
 - Make sure to solder all the pins marked with circles.  You may need a bit of wire to make the connection on the Teensy VUSB pin.
 - When soldering the Teensy pins, make sure you give them plenty of solder, heat and time for the solder to flow to the other side.  And make sure you test the connections with a continuity tester for opens ans shorts
 - A thinner PCB will make it easier to solder. (Caution: OSHPark 0.8mm thick boards are not being made reliably.  Better to use 1.6mm process.)
+- Todo: Reduce size of larger internal cutout.
 
 Left Side Pinout:
 
